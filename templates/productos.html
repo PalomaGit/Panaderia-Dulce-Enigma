@@ -1,0 +1,44 @@
+
+{% extends "base.html" %} 
+
+{% load static %} 
+
+{% block content %}
+<section class="contenedor-texto" aria-labelledby="titulo-panaderia">
+  <h2 id="titulo-panaderia">Nuestros productos</h2>
+  <ul class="productos lista-panaderia" aria-label="Productos de panadería">
+    <li class="producto" data-price="1.20">
+      <h3>Brioche de chocolate</h3> — 180 g - <span class="precio">€1.20</span>
+      <p class="descripcion">Pan dulce con chispas de chocolate belga.</p>
+    </li>
+    <li class="producto" data-price="2.50">
+      <h3>Croissant de mantequilla</h3> — 60 g - <span class="precio">€2.50</span>
+      <p class="descripcion">Elaborado con mantequilla premium, crujiente por fuera y tierno por dentro.</p>
+    </li>
+    <li class="producto" data-price="3.20">
+      <h3>Nata montada</h3> — 100 g - <span class="precio">€3.20</span>
+      <p class="descripcion">Dulce de nata natural con azúcar glas.</p>
+    </li>
+    <li class="producto" data-price="1.80">
+      <h3>Canela roll</h3> — 120 g - <span class="precio">€1.80</span>
+      <p class="descripcion">Espiral de canela y azúcar especiado.</p>
+    </li>
+    <li class="producto" data-price="4.50">
+      <h3>Galleta artesana</h3> — 80 g - <span class="precio">€4.50</span>
+      <p class="descripcion">Galletas decoradas a mano con glaseado de colores.</p>
+    </li>
+    <li class="producto" data-price="2.80">
+      <h3>Rosquilla de azúcar</h3> — 90 g - <span class="precio">€2.80</span>
+      <p class="descripcion">Clásica rosquilla frita con azúcar cristalino.</p>
+    </li>
+    <li class="producto" data-price="5.00">
+      <h3>Empanadilla de crema</h3> — 110 g - <span class="precio">€5.00</span>
+      <p class="descripcion">Masa fina rellena de crema pastelera casera.</p>
+    </li>
+    <li class="producto" data-price="3.50">
+      <h3>Barrita de arándanos</h3> — 140 g - <span class="precio">€3.50</span>
+      <p class="descripcion">Barrita dulce con arándanos frescos y glaseado de limón.</p>
+    </li>
+  </ul>
+</section>
+{% endblock %}
